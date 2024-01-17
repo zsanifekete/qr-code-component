@@ -1,4 +1,4 @@
-<img src="./images/project-preview.png">
+<img src="solution-preview.png">
 
 <h1 align="center">Qr code component solution</h1>
 
