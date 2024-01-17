@@ -1,5 +1,6 @@
-/* COLORS */
+
 :root {
+    /* COLORS */
     --color-white: hsl(0, 0%, 100%);
     --color-lightgray: hsl(212, 45%, 89%);
     --color-grayishblue: hsl(220, 15%, 55%);
