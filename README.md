@@ -4,11 +4,11 @@
 
 <div>
     <h3 align="center">
-        <a href="">Live</a>
+        <a href="https://zsanifekete.github.io/qr-code-component-challenge/" target="_blank">Live</a>
         <span> | </span>
         <a href="">Solution</a>
         <span> | </span>
-        <a href="">Challenge</a>
+        <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank">Challenge</a>
     </h3>
 </div>
 
@@ -41,7 +41,13 @@
         <a href="https://www.w3schools.com/css/default.asp">W3Schools</a> - This is a free educational site for learning coding online .
     </li>
     <li>
-        <a href="https://www.welldonecode.com/perfectpixel/">Perfect Pixel Extension</a> - This tool helps us to the differences between the provided design and the created website.
+        <a href="https://www.welldonecode.com/perfectpixel/">Perfect Pixel Extension</a> - This tool help me to the differences between the provided design and the created website.
     </li>
 </ul>
+
+<h2>Author</h2>
+    <ul>
+        <li>Website: <a href="https://zsanifekete.github.io/">zsanifekete.github.io</a></li>
+        <li>Frontend Mentor: @zsanifekete</li>
+    </ul>
 
