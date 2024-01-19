@@ -1,5 +1,4 @@
 :root {
-    /* COLORS */
     --color-white: hsl(0, 0%, 100%);
     --color-lightgray: hsl(212, 45%, 89%);
     --color-grayishblue: hsl(220, 15%, 55%);
@@ -32,7 +31,6 @@ body {
 .card img {
     max-width: 16.266rem;
     border-radius: 0.47rem;
-    cursor: pointer;
 }
 
 article.description {
