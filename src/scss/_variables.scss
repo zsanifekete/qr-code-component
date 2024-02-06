@@ -1,0 +1,45 @@
+@use 'sass:list';
+
+// COLORS
+
+$background-color: hsl(212, 45%, 89%);
+$card-background-color: hsl(0, 0%, 100%);
+$description-color: hsl(220, 15%, 55%);
+$title-color: hsl(218, 44%, 22%);
+$attribution-link-color: rgb(11, 11, 175);
+$attribution-hover-link-color: rgb(36, 98, 223);
+
+// SHADOWS
+
+$card-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+//FONTS
+
+$outfit-font-family: 'Outfit', sans-serif;
+
+$weight: 400 700;
+
+//TITLE FONT-SIZE 
+
+$title-font-size-mobile: 1.2rem;
+$title-font-size-desktop: 1.25rem;
+
+//DESCRIPTION FONT-SIZE 
+
+$description-font-size-mobile: 0.88rem;
+$description-font-size-desktop: 0.9375rem;
+
+//FOOTER FONT-SIZE 
+
+$attribution-font-size-mobile: 0.7rem;
+$attribution-font-size-desktop: 0.78rem;
+
+//MEDIA QUERY
+
+$layout-breakpoint: 40rem;
+
+$card-min-width-mobile: 17.36rem;
+$card-min-width-desktop: 18.36rem;
+
+$card-image-min-width-mobile: 15.266rem;
+$card-image-min-width-desktop: 16.266rem;

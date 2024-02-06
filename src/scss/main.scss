@@ -1,0 +1,97 @@
+@use 'normalize';
+@use 'variables';
+@use 'mixins';
+
+%flex-opposite-propertys {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    @extend %flex-opposite-propertys;
+    background-color: variables.$background-color;
+    font-family: variables.$outfit-font-family;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: variables.$card-background-color;
+    border-radius: 1.15rem;
+    box-shadow: variables.$card-box-shadow;
+    max-width: variables.$card-min-width-mobile;
+
+    &__container {
+        @extend %flex-opposite-propertys;
+        
+        &--image {
+            border-radius: 0.47rem;
+            margin: 1rem;
+            max-width: variables.$card-image-min-width-mobile;    
+        }
+    }
+}
+
+.card__content {
+    margin: 0.3rem 1.5rem 2rem 1.5rem;
+    text-align: center;
+
+    &--title {
+        color: variables.$title-color;
+        font-size: variables.$title-font-size-mobile;
+        font-weight: nth(variables.$weight, 2);
+        padding-bottom: 1rem;
+    }
+
+    &--description {
+        color: variables.$description-color;
+        font-weight: nth(variables.$weight, 1);
+        font-size: variables.$description-font-size-mobile;
+    }
+}
+
+.attribution__container--description {
+    color: variables.$title-color;
+    font-size: variables.$attribution-font-size-mobile;
+    padding: 1rem;
+    text-align: center;
+
+    &-link {
+        font-weight: nth(variables.$weight, 1);
+        text-decoration: none;
+
+        &:link,
+        &:visited {
+            color: variables.$attribution-link-color;
+        }
+
+        &:hover,
+        &:active {
+            color: variables.$attribution-hover-link-color;
+        }
+    }
+}
+
+@include mixins.media-query(variables.$layout-breakpoint) {
+    .card {
+        max-width: variables.$card-min-width-desktop;
+
+        &__container--image {
+            max-width: variables.$card-image-min-width-desktop;
+        }
+        
+        &__content--title {
+            font-size: variables.$title-font-size-desktop;
+        }
+
+        &__content--description {
+            font-size: variables.$description-font-size-desktop;
+        }
+    }
+
+    .attribution__container--description {
+        padding: 0.8rem;
+        font-size: variables.$attribution-font-size-desktop;
+    }
+}
