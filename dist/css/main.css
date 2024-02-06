@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card__container, body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.15rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  max-width: 17.36rem;
+}
+.card__container--image {
+  border-radius: 0.47rem;
+  margin: 1rem;
+  max-width: 15.266rem;
+}
+
+.card__content {
+  margin: 0.3rem 1.5rem 2rem 1.5rem;
+  text-align: center;
+}
+.card__content--title {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.card__content--description {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 0.88rem;
+}
+
+.attribution__container--description {
+  color: hsl(218, 44%, 22%);
+  font-size: 0.7rem;
+  padding: 1rem;
+  text-align: center;
+}
+.attribution__container--description-link {
+  font-weight: 400;
+  text-decoration: none;
+}
+.attribution__container--description-link:link, .attribution__container--description-link:visited {
+  color: rgb(11, 11, 175);
+}
+.attribution__container--description-link:hover, .attribution__container--description-link:active {
+  color: rgb(36, 98, 223);
+}
+
+@media screen and (min-width: 40rem) {
+  .card {
+    max-width: 18.36rem;
+  }
+  .card__container--image {
+    max-width: 16.266rem;
+  }
+  .card__content--title {
+    font-size: 1.25rem;
+  }
+  .card__content--description {
+    font-size: 0.9375rem;
+  }
+  .attribution__container--description {
+    padding: 0.8rem;
+    font-size: 0.78rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
