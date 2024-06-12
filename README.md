@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <img src="assets/screenshots/Screenshot-desktop.png" alt="Desktop Screenshot">
 <h1 align="center">QR Code Component Solution</h1>
 <div align="center">
@@ -50,7 +49,3 @@
     <li><b>Website</b> - <a href="https://zsanifekete.github.io/" target="_blank" title="https://zsanifekete.github.io/">zsanifekete.github.io</a></li>
     <li><b>Frontend Mentor</b> - <a href="https://www.frontendmentor.io/profile/zsanifekete" target="_blank" title="https://www.frontendmentor.io/profile/zsanifekete">@zsanifekete</a></li>
 </ul>
-=======
-# qr-code-component
-This repository contains my solution for the Frontend Mentor QR code component challenge. The project involves creating a simple and responsive QR code component that matches the provided design.
->>>>>>> origin/main
