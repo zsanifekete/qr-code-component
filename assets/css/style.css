@@ -1,0 +1,107 @@
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-lightgray: hsl(212, 45%, 89%);
+    --color-grayishblue: hsl(220, 15%, 55%);
+    --color-darkblue: hsl(218, 44%, 22%);
+    --color-blue: rgb(57, 57, 233);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    background-color: var(--color-lightgray);
+    display: flex;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+    justify-content: center;
+    min-height: 100vh;
+    -ms-overflow-style: none; /* for Internet Explorer and Edge */
+    scrollbar-width: none; /* for Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari and Opera*/
+}
+
+/*--------------------------------------------- 
+                QR code component 
+----------------------------------------------*/
+
+.card-container {
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    -moz-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 80%;
+    width: 20rem;
+    position: relative;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.img-qr-code {
+    border-radius: 0.6rem;
+    width: 100%;
+}
+
+.content-container {
+    margin: 1.5rem 1.25rem 2.45rem 1.25rem;
+    text-align: center;
+}
+
+.content-title {
+    color: var(--color-darkblue);
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.content-description {
+    color: var(--color-grayishblue);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+/*--------------------------------------------- 
+                    FOOTER 
+----------------------------------------------*/
+
+.attribution-container {
+    bottom: 2%;
+    color: var(--color-darkblue);
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    font-weight: 400;
+    justify-content: center;
+    position: absolute;
+}
+
+.attribution-container a:link,
+.attribution-container a:visited {
+    color: var(--color-blue);
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 0.2rem;
+}
+
+.attribution-container a:hover {
+    color: var(--color-darkblue);
+}
