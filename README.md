@@ -2,7 +2,7 @@
 <h1 align="center">QR Code Component Solution</h1>
 <div align="center">
     <h3>
-        <a href="https://zsanifekete.github.io/qr-code-component-challenge/" target="_blank">Live</a>
+        <a href="https://qr-code-component-zsani.netlify.app/" target="_blank">Live</a>
         <span> | </span>
         <a href="">Solution</a>
         <span> | </span>
@@ -21,6 +21,7 @@
     <img src="https://skillicons.dev/icons?i=html" title="HTML" alt="HTML"/>
     <img src="https://skillicons.dev/icons?i=css" title="CSS" alt="CSS"/>
     <img src="https://skillicons.dev/icons?i=figma" title="Figma" alt="Figma"/>
+    <img src="https://skillicons.dev/icons?i=netlify" title="Netlify" alt="Netlify"/>
 </section>
 <h3>Features</h3>
 <ul>
@@ -35,10 +36,8 @@
 </ul>
 <h3>Useful Resources</h3>
 <ul>
-    <li><b>PerfectPixel</b></li>
-    <p align="justify">PerfectPixel is a Chrome extension used by web developers and designers to compare the actual appearance of a webpage with its design. This tool is particularly useful for achieving pixel-perfect development, ensuring that the implemented design matches the intended design accurately.</p>
-    <li><b>ColorZilla</b></li>
-    <p align="justify">ColorZilla is a popular Chrome extension used by web developers and designers for easy and quick color selection and analysis. With ColorZilla, you can effortlessly pick the color of any element on a webpage and it offers many other useful features for color management and analysis.</p>
+    <li align="justify"><b>PerfectPixel</b> is a Chrome extension used by web developers and designers to compare the actual appearance of a webpage with its design. This tool is particularly useful for achieving pixel-perfect development, ensuring that the implemented design matches the intended design accurately.</li>
+    <li align="justify"><b>ColorZilla</b> is a popular Chrome extension used by web developers and designers for easy and quick color selection and analysis. With ColorZilla, you can effortlessly pick the color of any element on a webpage and it offers many other useful features for color management and analysis.</li>
 </ul>
 <h2>Mobile Version</h2>
 <div align="center">
