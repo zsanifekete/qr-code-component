@@ -2,15 +2,15 @@
 <h1 align="center">QR Code Component Solution</h1>
 <div align="center">
     <h3>
-        <a href="https://qr-code-component-zsani.netlify.app/" target="_blank">Live</a>
+        <a href="https://qr-code-component-zsani.netlify.app/" target="_blank" title="https://qr-code-component-zsani.netlify.app/">Live</a>
         <span> | </span>
-        <a href="">Solution</a>
+        <a href="https://www.frontendmentor.io/solutions/qr-code-component-2eKO3hk7GT" target="_blank" title="https://www.frontendmentor.io/solutions/qr-code-component-2eKO3hk7GT">Solution</a>
         <span> | </span>
-        <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank">Challenge</a>
+        <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank" title="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">Challenge</a>
     </h3>
 </div>
 <p align="justify">
-    This is a solution to the <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">QR code component challenge on Frontend Mentor</a>. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+    This is a solution to the <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank" title="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">QR code component challenge on Frontend Mentor</a>. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 </p>
 <h2>The Challenge</h2>
 <p align="justify">Your challenge is to build out this QR code component and get it looking as close to the design as possible.</p>
